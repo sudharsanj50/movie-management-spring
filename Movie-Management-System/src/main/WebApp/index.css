@@ -1,0 +1,57 @@
+@charset "UTF-8";
+#g{
+
+	color: black;
+}
+body{
+	height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/07/00/00/cinema-1241422_1280.jpg);
+    background-repeat: round;
+    
+}
+.a{
+	border: 2px solid black;
+	height:400px;
+	width: 500px;
+	display:flex;
+	flex-direction:column;
+    background: #aa907275;
+    box-shadow: 8px 8px 3px;
+    border-radius: 10px;
+	
+	
+	
+}
+
+.a h1{
+	text-align:center;
+	    margin-bottom: 74px;
+}
+.a .btn{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.a button{
+	    height: 37px;
+	width: 170px;
+    margin: 20px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+}
+
+
+.a button a:hover{
+	color: red;
+}
+.a button a{
+	text-decoration: none;
+    color: white;
+}

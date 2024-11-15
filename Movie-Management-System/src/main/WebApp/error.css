@@ -1,0 +1,25 @@
+/* @charset "UTF-8";
+ 
+ body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+ 
+ h1{
+ color: red;
+ font-size: 3.8em;
+ }
+ a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1e3a8a;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+a:hover {
+      color: #ffac11;
+}
+
